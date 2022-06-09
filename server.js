@@ -1,7 +1,6 @@
 const express = require("express");
 const cors = require("cors");
 const AWS = require("aws-sdk");
-const YAML = require("yaml");
 // const { readFile, writeFile, createReadStream } = require("fs").promises;
 const fs = require("fs");
 require("dotenv").config();
